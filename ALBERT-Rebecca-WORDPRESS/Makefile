@@ -1,8 +1,8 @@
 .PHONY: start data stop
 start:
-    docker-compose up -d
+	docker-compose up -d
 
-data:
+mysqldump:
 	docker exec ALBERT-Rebecca-DB bash -c "mysqldump -u wordpress -pwordpress --all-databases > /docker-entrypoint-initdb.d/mysql_dump.sql"
 
 stop:
