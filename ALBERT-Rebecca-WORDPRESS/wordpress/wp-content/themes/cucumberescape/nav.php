@@ -2,10 +2,10 @@
 
 <nav>
   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Wisdom</li>
-    <li>Wits</li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Wisdom</a></li>
+    <li><a href="#">Wits</a></li>
   </ul>
 </nav>
 

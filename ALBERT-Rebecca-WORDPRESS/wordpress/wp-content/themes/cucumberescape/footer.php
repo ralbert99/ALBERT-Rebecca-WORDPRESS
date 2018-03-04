@@ -2,7 +2,6 @@
 
 
 <footer>
-  <h3>The Footer</h3>
   <?php get_template_part('nav'); ?>
 </footer>
 <?php wp_footer(); ?>
