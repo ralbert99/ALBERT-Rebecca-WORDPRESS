@@ -7,16 +7,7 @@
 define( 'WP_USE_THEMES', false ); get_header();
   get_template_part('main');
   get_template_part('columnlayout');
-  if ( have_posts() ) : while ( have_posts() ) : the_post();
-
-    the_title('<h2>' , '</h2>');
-    echo "<div class=''>";
-    echo "<p>" . the_content() . "</p>";
-    echo "<div>";
-
-  endwhile; else :
-  	esc_html_e( '<p>Sorry, no posts matched your criteria.</p>' );
-    endif;
+  get_template_part('loop');
   get_footer();?>
 
 <!-- <?php echo "END OF " . basename(__FILE__); ?>-->
