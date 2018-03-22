@@ -1,12 +1,9 @@
 
-<?php
-echo "<div>";
-  if ( have_posts() ) : while ( have_posts() ) : the_post();
-    the_title('<h2>' , '</h2>');
-    echo get_permalink();
-    echo "<p>" . the_content() . "</p>";
-  endwhile; else :
-    esc_html_e( '<p>Sorry, no posts matched your criteria.</p>' );
-    endif;
-echo "</div>";
-?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <article <?php post_class(); ?>>
+      <a href="<?php the_permalink(); ?>"><?php the_title('<h2>','</h2>');?></a>
+      <?php the_content(); ?>
+    </article>
+  <?php endwhile; else : ?>
+    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+  <?php endif; ?>

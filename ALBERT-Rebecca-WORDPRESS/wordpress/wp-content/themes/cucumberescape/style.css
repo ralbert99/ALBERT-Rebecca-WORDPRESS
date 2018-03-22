@@ -93,3 +93,11 @@ main p {
         width: 100%;
     }
 }
+
+.single-post main h1 {
+  font-size: 3em;
+}
+
+.post.category-category-b {
+  background-color: #000;
+}
