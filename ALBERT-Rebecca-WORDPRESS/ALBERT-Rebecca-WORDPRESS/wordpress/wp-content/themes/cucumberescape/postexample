@@ -1,0 +1,25 @@
+WP_Post Object (
+[ID] => 36
+[post_author] => 1
+[post_date] => 2018-02-26 05:58:26
+[post_date_gmt] => 2018-02-26 05:58:26
+[post_content] => Park City merged with Canyons for the 2015 season, making it the country’s largest resort, featuring 7,300 acres, 38 lifts, and more than 300 runs. That includes the brand-new Quicksilver gondola, which connects the two areas. The terrain Quicksilver accesses is relatively flat and low in elevation, so plan on using it to traverse the megaresort rather than to access the goods. That’s okay, since both resort’s fantastic core terrain, like Park City’s Jupiter Bowls and the Canyons’ expert Ninety-Nine 90, is unchanged. More in the mood for flips and spins? The resort now boasts seven terrain parks, including the legendary King’s Crown, a big reason so many freestyle Olympians call Park City home. And despite Utah’s teetotaling reputation, downtown Park City’s nightlife is impressive. There’s everything from top-notch dining at Reef’s and Riverhorse on Main to dive bars like the No Name Saloon and O’Shucks. Word to the wise: some of the best skiing can be found during the Sundance Festival in January, when lodging is full of Hollywood gapers and the slopes are surprisingly empty. —F.R. 
+[post_title] => Park City
+[post_excerpt] =>
+[post_status] => publish
+[comment_status] => open
+[ping_status] => open
+[post_password] =>
+[post_name] => park-city
+[to_ping] =>
+[pinged] =>
+[post_modified] => 2018-02-26 05:58:26
+[post_modified_gmt] => 2018-02-26 05:58:26
+[post_content_filtered] =>
+[post_parent] => 0
+[guid] => http://localhost:8080/?p=36
+[menu_order] => 0
+[post_type] => post
+[post_mime_type] =>
+[comment_count] => 0
+[filter] => raw )
